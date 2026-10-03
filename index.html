@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clicpton サポート / Clicpton Support</title><style>
+:root{--bg:#f6f6fb;--fg:#23233a;--sub:#6b6b86;--card:#ffffff;--line:#dcdcec;--accent:#4b3fb5}
+@media (prefers-color-scheme:dark){:root{--bg:#16162a;--fg:#ececf8;--sub:#a4a4c0;--card:#20203a;--line:#37375a;--accent:#a99bff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.8 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 20px 64px}h1{font-size:28px;margin:8px 0 4px}h2{font-size:20px;margin:32px 0 8px}h3{font-size:16px;margin:20px 0 4px}
+p,li{margin:6px 0}ul{padding-left:1.3em}a{color:var(--accent)}.sub{color:var(--sub)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 20px 12px;margin:16px 0}
+.nav{display:flex;gap:16px;font-size:14px;margin-bottom:8px;flex-wrap:wrap}hr{border:0;border-top:1px solid var(--line);margin:40px 0}footer{color:var(--sub);font-size:14px;margin-top:40px}
+</style></head><body><main>
+<div class="nav"><a href="./">サポート / Support</a><a href="./privacy/">プライバシーポリシー / Privacy Policy</a><a href="#en">English</a></div>
+<section id="ja" lang="ja">
+<h1>Clicpton サポート</h1>
+<p class="sub">⌘V を長押しして開く、検索つきのクリップボード履歴（Mac）</p>
+<div class="card"><h2>お問い合わせ</h2>
+<p>不具合・ご質問・ご要望は、メールでお送りください。<br><a href="mailto:moro-support@proton.me">moro-support@proton.me</a></p>
+<p class="sub">お返事には数日かかることがあります。お使いの macOS のバージョンと、困っている内容を書いていただけると助かります。</p></div>
+<h2>よくある質問</h2>
+<h3>⌘V を長押ししても、履歴が開きません</h3><p>システム設定 → プライバシーとセキュリティ で、「入力監視」と「アクセシビリティ」の両方で Clicpton を許可してください。許可したあとは、Clicpton を一度終了して、起動し直すと確実です。メニューバーの Clicpton のメニューに「許可が必要です…」と出ている間は、長押しは働きません。</p>
+<h3>特定のアプリで、⌘V がふつうに貼り付けられません／長押しを使いたくない</h3><p>設定の「除外アプリ」タブで、そのアプリを追加してください。追加したアプリでは、⌘V は、いつもどおり働きます。</p>
+<h3>選んだあとに、自動で貼り付けられません</h3><p>設定の「選んだら自動で貼り付ける」がオフだと、選んだ項目はクリップボードに入るだけです。貼り付けは ⌘V で行ってください。</p>
+<h3>どんな情報を保存しますか？</h3><p>コピーした内容（文字・画像・ファイルの場所など）を、履歴として、お使いの Mac の中だけに置きます。Clicpton は、通信をしません。履歴をディスクに保存する設定（「再起動後も履歴を残す」）は、初期状態ではオフです。くわしくは<a href="privacy/">プライバシーポリシー</a>をご覧ください。</p>
+<h3>パスワードをコピーしてしまいました</h3><p>パスワード・API キー・カード番号らしい文字列は、鍵のマークと伏せ字で表示し、60 秒後に、履歴とクリップボードから自動で削除します（設定で変更できます）。すぐに消したいときは、ポップアップで項目を選んで ⌘⌫ を押してください。</p>
+<h3>履歴を全部消したい</h3><p>メニューバーの Clicpton のメニューの「履歴をクリア…」で消去できます。「再起動後も履歴を残す」をオンにしていた場合は、設定でオフにすると、保存したデータも削除されます。</p>
+<h3>14 日間の試用と、Pro について</h3><p>14 日間は、すべての機能を無料で使えます。その後は、履歴が最新 5 件までになります（保存した履歴は消えません）。Pro（買い切り・¥900）を購入すると、制限が外れます。サブスクリプションではありません。</p>
+<h3>Pro を買ったのに、制限がかかっています</h3><p>設定の「Pro」タブにある「購入を復元」を押してください。購入したときと同じ Apple ID でサインインしている必要があります。返金は Apple が行います（<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>）。</p>
+<h3>対応している環境は？</h3><p>macOS 14 以降の Mac です。表示言語は、日本語・English・繁體中文・한국어・Deutsch・Français・Español に対応しています。</p>
+</section>
+<hr>
+<section id="en" lang="en">
+<h1>Clicpton Support</h1>
+<p class="sub">A searchable clipboard history that opens when you hold ⌘V (Mac)</p>
+<div class="card"><h2>Contact</h2>
+<p>For bugs, questions or requests, please email:<br><a href="mailto:moro-support@proton.me">moro-support@proton.me</a></p>
+<p class="sub">Replies may take a few days. It helps if you include your macOS version and what went wrong.</p></div>
+<h2>FAQ</h2>
+<h3>Holding ⌘V doesn't open the history</h3><p>In System Settings → Privacy &amp; Security, allow Clicpton under both "Input Monitoring" and "Accessibility". After allowing, quit and relaunch Clicpton to be sure. While the Clicpton menu shows "Permission Needed…", the long press does not work.</p>
+<h3>⌘V doesn't paste normally in a particular app / I don't want the long press there</h3><p>Add the app in Settings → "Excluded Apps". In the apps you add, ⌘V behaves exactly as usual.</p>
+<h3>The item isn't pasted automatically after I choose it</h3><p>If "Paste automatically after choosing" is off in Settings, the chosen item is only placed on the clipboard. Press ⌘V to paste it yourself.</p>
+<h3>What does Clicpton store?</h3><p>It keeps what you copy (text, images, file locations and so on) as a history, only on your Mac. Clicpton never connects to the network. Saving the history to disk ("Keep history after restart") is off by default. See the <a href="privacy/">Privacy Policy</a> for details.</p>
+<h3>I copied a password</h3><p>Text that looks like a password, API key or card number is shown masked with a lock and is automatically deleted from the history and the clipboard after 60 seconds (adjustable in Settings). To remove an item right away, select it in the popup and press ⌘⌫.</p>
+<h3>How do I delete the whole history?</h3><p>Choose "Clear History…" in the Clicpton menu in the menu bar. If you had turned on "Keep history after restart", turning it off in Settings also deletes the saved data.</p>
+<h3>About the 14-day trial and Pro</h3><p>All features are free for 14 days. After that, history is limited to the latest 5 items (nothing you saved is deleted). Buying Pro (one-time purchase, ¥900) removes the limit. It is not a subscription.</p>
+<h3>I bought Pro but I'm still limited</h3><p>Tap "Restore Purchase" in the "Pro" tab of Settings. You need to be signed in with the same Apple ID you bought with. Refunds are handled by Apple (<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>).</p>
+<h3>Which systems are supported?</h3><p>Macs running macOS 14 or later. The app is available in Japanese, English, Traditional Chinese, Korean, German, French and Spanish.</p>
+</section>
+<footer>Clicpton</footer></main></body></html>
